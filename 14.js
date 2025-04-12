@@ -5,6 +5,8 @@ let details={
 }
 
 // details.address="hyd"
-details.address="new york"
-delete details.fname
-console.log(details);
+// details.address="new york"
+// delete details.fname
+// console.log(details);
+
+console.log("fname" in details); 
